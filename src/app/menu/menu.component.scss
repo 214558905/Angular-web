@@ -1,0 +1,47 @@
+
+  body{
+    padding-top: 80px;
+    }
+    .Logo{
+    
+    width: 80px;
+    }
+    
+    #Encabezado a:hover {
+      color: #FD5308;
+      cursor: pointer;
+    }
+    
+    #Encabezado a{
+    
+    color: black;
+    font-family: sans-serif;
+    
+    }
+    
+    #Desplegable{
+    
+      background-color: black;
+    }
+    #Desplegable a{
+      
+      color:#f1eeec;
+    }
+    #Desplegable a:hover{
+      
+    color:#FD5308;
+    background-color: black;
+    }
+      
+    
+    
+    #Encabezado{
+    
+    background-color:#ffff;
+    }
+    .navbar-collapse{
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+
+    }
+   

@@ -1,0 +1,54 @@
+
+
+.cajaEventos{
+
+    background-color: #F1F1F1;
+    
+        
+    }
+    
+    .cajaEventos div{
+        
+    padding-top:20px;
+    }
+    .cajaEvento1 div{
+        
+    padding-top:20px;
+    } 
+    section{
+        
+    padding-left: 0;
+        
+    }
+        
+    .tarjeta{
+        border-radius:1em;
+        box-shadow: 1px 4px #c44323;
+    -webkit-box-shadow: 2px 2px 2px rgb(201, 195, 195);
+    }
+    .titulo{
+    
+        text-align: center;
+        color: #4d4c4b;
+        font-weight: normal;
+        font-size: 40px;
+        font-family: Arial;
+        text-transform: uppercase;
+    }
+    .titulo1{
+        font-style: italic;
+        color: #1b2a4b;
+        text-decoration: underline;
+    }
+    .icon i{
+
+        float: right;
+       cursor: pointer;
+       margin-top: -70px;
+       color: red;
+       transition: 1s ease-in-out;
+    }
+    .icon i:hover{
+
+        color:black;
+    }

@@ -1,0 +1,50 @@
+.row{
+    padding: 0;
+    margin-left: 5%;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+p{
+    text-align: justify;
+}
+
+.primero{
+    background: #e0edff;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 4px #002858;
+    width: 260px;
+    transition: transform .9s;
+}
+img{
+    
+    padding-top: 20px ;
+}
+.ml-md-auto:hover{
+    
+    transform: scale(1.1);
+}
+h5{
+    color: #fc5914;
+    padding-top: 10px ;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.segundo{
+    background: #e6f1e1;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 4px #002858;
+    width: 260px;
+    transition: transform .9s;
+}
+.titulo{
+
+    padding-left: 90px;
+    font-family:'Times New Roman', Times, serif;
+}

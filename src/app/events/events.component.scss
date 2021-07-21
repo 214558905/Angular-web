@@ -1,0 +1,56 @@
+
+.cajaEventos{
+
+background-color: #F1F1F1;
+
+    
+}
+
+    
+.tarjeta{
+    border-radius:1em;
+    box-shadow: 1px 4px #c44323;
+-webkit-box-shadow: 2px 2px 2px rgb(201, 195, 195);
+}
+.cajaEventos div{
+    
+padding-top:20px;
+}
+.cajaEvento1 div{
+    
+padding-top:20px;
+} 
+section{
+    
+padding-left: 0;
+    
+}
+.boton{
+    background-color: #fd5308;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 4px #c44323;
+    -webkit-box-shadow: 1px 1px 1px rgb(112, 106, 106);
+    transition: background-color 1s linear;
+    margin-bottom:5px ;
+    padding-left:5px ;
+}
+.boton:hover{
+
+    
+    background-color: #002858;
+    color: #fd5308;
+}
+.titulo{
+
+    text-align: center;
+    color: #4d4c4b;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+.titulo1{
+    font-style: italic;
+    color: #1b2a4b;
+    text-decoration: underline;
+}

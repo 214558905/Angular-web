@@ -1,0 +1,21 @@
+<br><br><br><br><br>
+<div class="container">
+    <table class="table table-striped">
+        <thead class="Encabezado">
+          <tr>
+            <th scope="col">LÍNEA DE INVESTIGACIÓN</th>
+            <th scope="col">GRUPOS DE INVESTIGACIÓN QUE TRIBUTAN A LA LÍNEA</th>
+            <th scope="col">COORDINADORES DE GIS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="F"*ngFor="let grupo of grupos; let isFirst=first; let impar = odd;let par = even" [ngClass]="{primero:par,segundo:impar}">
+            <td>{{grupo.linea}}</td>
+            <td>{{grupo.grupo}}</td>
+            <td>{{grupo.cordinador}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+</div>
+<app-footer></app-footer>

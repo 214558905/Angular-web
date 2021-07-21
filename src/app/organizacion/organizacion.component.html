@@ -1,0 +1,22 @@
+<br><br><br><br>
+<h3 class="titulo">
+  Las cuatro áreas que conforman la Dirección de Investigación  son:
+</h3>
+<div class="row container col col-lg-12">
+  <div class="col-12 ml-md-auto" *ngFor="let organizacion of organizacion; let impar = odd;let par = even" [ngClass]="{primero:par,segundo:impar}">
+
+    <img  style="display:block;margin:0 auto 0 auto;"  src="{{organizacion.imagen}}" alt="">
+    <h5>
+      {{organizacion.name}}
+    </h5>
+    <p>
+      {{organizacion.text}}
+    </p>
+  </div>
+
+
+</div>
+
+  <footer>
+    <app-footer></app-footer>
+  </footer>

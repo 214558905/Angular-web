@@ -1,0 +1,16 @@
+.icon i{
+    
+    float: right;
+    cursor: pointer;
+    float: right;
+    top:-24px;
+   right:-24px;
+}
+.icon i{
+        transition: 1s ease-in-out;
+
+}
+.icon i:hover{
+    color: red;
+    transform: rotate(180deg);
+}

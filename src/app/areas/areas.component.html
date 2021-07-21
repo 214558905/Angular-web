@@ -1,0 +1,22 @@
+<br><br><br><br><br>
+
+<h1 class="titulo">
+    Nuestras áreas de Investigación:
+</h1>
+<div class="container f" *ngFor="let area of areas ; let impar = odd;let par = even " [ngClass]="{primero:par,segundo:impar}">
+    <div class=" container primero">
+
+        <h5 class="span1">Dominio: <span > {{area.domain}}</span></h5>
+        
+
+    </div>
+
+    <div class=" container segundo">
+
+        <h5 class="span">Linea: <span >{{area.line}}</span></h5>
+    </div>
+</div>
+
+
+
+<app-footer></app-footer>

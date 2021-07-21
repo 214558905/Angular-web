@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+<div class="container cuadro">
+    <div class="icon">
+        <i class="fas fa-times" (click)="close()"></i>
+    </div>
+    <h1>{{evento.name}}</h1>
+    <div class=" container-img" >
+        <img  src="{{evento.imagen}}" class="">
+    </div>
+    <div class=" container parrafo">
+        <p>
+            {{evento.description}}
+        </p>
+     
+
+    </div>
+    <div class="boton">
+        <button class="btn btn-danger"(click)="close()">Close</button>
+    </div>
+    
+</div>
+
+
+
+       
+
+
+
