@@ -3,7 +3,7 @@ import { EventosService } from '../api/eventos.service';
 import { EventoModelo } from '../models/eventos.model';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ModalGestionarEventosComponent } from '../modal-gestionar-eventos/modal-gestionar-eventos.component';
-import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-gestionar-eventos',
@@ -14,17 +14,7 @@ export class GestionarEventosComponent implements OnInit {
 
   static END_POINT="editarEventos"  
   public event: EventoModelo[];
-
-  evento: EventoModelo={
-
-    id:"",
-    name:"",
-    description:"",
-    imagen:""
-
-  };
-
-  constructor(private eventosService: EventosService, public dialog1:MatDialog, private router:Router) {
+  constructor(private eventosService: EventosService, public dialog1:MatDialog) {
 
     this.event = [];
   }
@@ -52,18 +42,6 @@ export class GestionarEventosComponent implements OnInit {
     dialogRef.componentInstance.evento;
     dialogRef.afterClosed().subscribe(result=>console.log(result));
     
-  }
-
-  CrearEvento(){
-
-    this.eventosService.CrearEventos(this.evento).subscribe((data)=>{
-
-      this.router.navigateByUrl('editarEventos');
-      alert ('Evento Guardado');
-    }, (error)=>{
-      alert('Error al guardar')
-    
-    });
   }
 
 }

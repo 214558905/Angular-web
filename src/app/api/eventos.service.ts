@@ -27,6 +27,9 @@ export class EventosService {
     return this.http.delete<EventoModelo>(this.url+"/"+evento.id)
   }
   
+  public post(url:string, body: any){
+    return this.http.post(url,body); // POST  
+  }
   CrearEventos(evento: EventoModelo){
 
     return this.http.post(this.url, evento);
