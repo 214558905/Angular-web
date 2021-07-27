@@ -12,6 +12,7 @@ export class MenuComponent implements OnInit {
   quienesSomos='/quienesSomos'
   organizacion='/organizacion'
   congresos='/congresos'
+  reglas='/reglamentos-normas'
   constructor() { }
 
   ngOnInit(): void {

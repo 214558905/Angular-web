@@ -1,1 +1,32 @@
-<p>reglas works!</p>
+
+<body>
+<!---<div class="row container col col-lg-12">
+    <div class="col-12 ml-md-auto">
+  
+      <img src="../../assets/reglamento.png" alt="">
+      <button type="button" class="btn btn-secondary">Secondary</button>
+
+    </div>
+    
+  
+  
+  </div>
+  --->
+    <div class="container">
+        <div class="row">
+            <div class="col" *ngFor="let reglas of reglas">
+                <div class="container-img">
+                  <img class="imagen" src="{{reglas.imagen}}" alt="">  
+                </div>
+                <a href="{{reglas.enlace}}" target="_blank" type="button" class="btn btn-secondary">{{reglas.name}}</a>
+            
+            </div>
+        </div>
+    </div>
+      <footer class="footer">
+        <app-footer></app-footer>
+      </footer>
+    
+
+</body>
+  

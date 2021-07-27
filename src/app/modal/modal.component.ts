@@ -1,7 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { EventoModelo } from '../models/eventos.model';
 import { MatDialogRef } from '@angular/material/dialog';
-import { MatDialog } from '@angular/material/dialog';
 @Component({
   selector: 'app-modal',
   templateUrl: './modal.component.html',

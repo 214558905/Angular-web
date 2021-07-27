@@ -13,6 +13,7 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { OrganizacionComponent } from './organizacion/organizacion.component';
 import { CongresosComponent } from './congresos/congresos.component';
 import { GestionarEventosComponent } from './gestionar-eventos/gestionar-eventos.component';
+import { ReglasComponent } from './reglas/reglas.component';
 
 const routes: Routes = [
   {path :'',pathMatch:'full',redirectTo:'home'},
@@ -28,7 +29,8 @@ const routes: Routes = [
       {path:NoticiasComponent.END_POINT, component: NoticiasComponent, pathMatch:'full'},
       {path:QuienesSomosComponent.END_POINT, component: QuienesSomosComponent, pathMatch:'full'},
       {path:OrganizacionComponent.END_POINT, component: OrganizacionComponent, pathMatch:'full'},
-      {path:CongresosComponent.END_POINT, component:CongresosComponent, pathMatch:'full' }
+      {path:CongresosComponent.END_POINT, component:CongresosComponent, pathMatch:'full' },
+      {path:ReglasComponent.END_POINT, component:ReglasComponent, pathMatch: 'full'}
     ]
    
   },

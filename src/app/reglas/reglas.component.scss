@@ -1,0 +1,33 @@
+.btn{
+
+    width:100%; 
+}
+.container-img img{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+.container{
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.btn{
+    color: white;
+    background-color: #1c3553;
+    transition: background-color 1s linear;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #a5bad5;
+    color: black;
+}
+/*.footer{
+
+    margin-top: 194px;
+}*/
+.col{
+    margin-right: 60px;
+}

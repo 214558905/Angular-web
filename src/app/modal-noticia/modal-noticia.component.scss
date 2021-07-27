@@ -3,6 +3,13 @@
     background-color: blueviolet;
 
 }
+.container-img img{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 290px;
+    text-align: center;
+}
 .container-img:hover{
     	
     transition:all .5s ease-in-out;
@@ -14,7 +21,7 @@
 .parrafo{
     text-align: justify;
     white-space: pre-line;
-    width: 300px;
+    width: 400px;
     font-family:'Times New Roman', Times, serif;
     padding-top:10px ;
 }
@@ -46,4 +53,10 @@ h1{
 .icon i:hover{
     color: red;
     transform: rotate(180deg);
+}
+.container-img img{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    text-align: center;
 }
